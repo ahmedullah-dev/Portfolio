@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Ullah - Frontend Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">AHMED ULLAH</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#qualification">Qualification</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                        <span>Dark</span>
+                    </button>
+                </li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-circle"></i>
+                    Open to new opportunities
+                </div>
+                <h1>AHMED ULLAH</h1>
+                <p class="subtitle">Frontend Developer turning ideas into responsive, scalable web experiences with the MERN stack</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Explore My Work
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-paper-plane"></i>
+                        Let's Connect
+                    </a>
+                    <a href="AHMED ULLAH - RESUME.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content fade-in">
+                <p class="about-text">
+                    I'm a passionate full stack web developer in training, combining creativity with technical expertise 
+                    to build stunning, responsive web applications. Currently pursuing my Bachelor's in Information Technology, 
+                    I specialize in modern frontend technologies while expanding into the MERN stack.
+                </p>
+                <p class="about-text">
+                    My development philosophy centers around creating intuitive user experiences through clean, maintainable code. 
+                    I leverage AI tools to enhance productivity and stay at the forefront of web development trends, 
+                    always eager to tackle new challenges and collaborate with dynamic teams.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-item glass-card fade-in">
+                        <span class="stat-number">4+</span>
+                        <div class="stat-label">Live Projects Deployed</div>
+                    </div>
+                    <div class="stat-item glass-card fade-in">
+                        <span class="stat-number">8.50</span>
+                        <div class="stat-label">Current CGPA</div>
+                    </div>
+                    <div class="stat-item glass-card fade-in">
+                        <span class="stat-number">2025</span>
+                        <div class="stat-label">Expected Graduation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Qualification Section -->
+    <section id="qualification" class="section qualification-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Qualification</h2>
+            <h2 class="journey">My Journey</h2>
+            <div class="qualification-timeline">
+            <!-- Education -->
+            <div class="timeline-card left glass-card fade-in">
+                <h3 id="ed"><i class="fas fa-graduation-cap"></i> Education</h3>
+                <h4>B.E. in Information Technology</h4>
+                <p class="institution">Lords Institute of Engineering & Technology</p>
+                <p class="duration">Nov 2021 – May 2025</p>
+                <p class="extra">CGPA: 8.50</p>
+            </div>
+
+            <!-- Internship -->
+            <div class="timeline-card right glass-card fade-in">
+                <h3><i class="fas fa-briefcase"></i> Internship</h3>
+                <h4>Ethical Hacking Intern</h4>
+                <p class="institution">Huntmetrics</p>
+                <p class="duration">Aug 2023 – Sep 2023</p>
+                <p class="extra">Worked on Open Redirection Vulnerabilities and SSRF Filter Bypass Techniques</p>
+            </div>
+
+            <!-- Vertical Timeline Line -->
+            <div class="timeline-line"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-card fade-in">
+                    <h3><i class="fas fa-code"></i> Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">DOM Manipulation</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card fade-in">
+                    <h3><i class="fas fa-database"></i> Database & Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">NoSQL</span>
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card fade-in">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Netlify</span>
+                        <span class="skill-tag">AI Tools</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card fade-in">
+                    <h3><i class="fas fa-user-friends"></i> Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Time Management</span>
+                        <span class="skill-tag">Adaptability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card fade-in">
+                    <div class="project-header">
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                        <p class="project-description">
+                            A fully responsive, modern portfolio website showcasing my projects and skills. 
+                            Features optimized performance, cross-device compatibility, and engaging user interactions 
+                            built with clean, semantic HTML and advanced CSS techniques.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ahmedullah-dev.netlify.app" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card fade-in">
+                    <div class="project-header">
+                        <h3 class="project-title">Interactive Quiz Application</h3>
+                        <p class="project-description">
+                            A dynamic, client-side quiz application featuring real-time scoring, interactive UI elements, 
+                            and smooth animations. Built entirely with vanilla JavaScript, demonstrating strong 
+                            DOM manipulation and event handling skills.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">DOM Manipulation</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://quiz-app-ahmedullah.netlify.app" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card glass-card fade-in">
+                <div class="project-header">
+                    <h3 class="project-title">Creamery Dairy Management System</h3>
+                    <p class="project-description">
+                        A Django-based ERP system for managing dairy product orders, inventory tracking, and customer records. 
+                        Designed to streamline operations in small to mid-sized dairy businesses with a simple and efficient interface.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">SQLite</span>
+                        <span class="tech-tag">Academic Project</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card glass-card fade-in">
+                <div class="project-header">
+                    <h3 class="project-title">AI in Smart Cities</h3>
+                    <p class="project-description">
+                        A major academic research project exploring how Artificial Intelligence contributes to smart city 
+                        development, focusing on e-governance applications and modern cybersecurity frameworks.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">AI</span>
+                        <span class="tech-tag">Cybersecurity</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Research</span>
+                    </div>
+                </div>
+            </div>     
+
+            <div class="project-card glass-card fade-in">
+                <div class="project-header">
+                    <h3 class="project-title">Weather Forecast System</h3>
+                    <p class="project-description">
+                        A lightweight Python application that fetches and displays real-time weather data for any city using 
+                        the OpenWeatherMap API. Ideal for learning API integration and data parsing techniques.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">API Integration</span>
+                        <span class="tech-tag">OpenWeatherMap</span>
+                        <span class="tech-tag">CLI App</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card glass-card fade-in">
+                <div class="project-header">
+                    <h3 class="project-title">Contact Management System</h3>
+                    <p class="project-description">
+                        A command-line tool for managing contacts — including add, search, update, and delete operations — 
+                        implemented using Object-Oriented Programming and file handling techniques in Python.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OOP</span>
+                        <span class="tech-tag">File Handling</span>
+                        <span class="tech-tag">CLI App</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Let’s Connect and Create Something Impactful</h2>
+            <div class="contact-content fade-in">
+                <p class="about-text">
+                    Whether you're looking for a reliable full stack developer to join your team, need help building a product, 
+                    or just want to connect and talk tech — I’m all ears. I’m currently open to full-time roles, freelance projects, 
+                    and collaborations that challenge me to grow and contribute.    
+                </p>
+                <div class="contact-info">
+                    <div class="contact-item glass-card fade-in">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:ahmedullah8341@gmail.com">ahmedullah8341@gmail.com</a>
+                    </div>
+                    <div class="contact-item glass-card fade-in">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/ahmedullah-dev" target="_blank">linkedin.com/in/ahmedullah-dev</a>
+                    </div>
+                    <div class="contact-item glass-card fade-in">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/ahmedullah-dev" target="_blank">github.com/ahmedullah-dev</a>
+                    </div>
+                    <div class="contact-item glass-card fade-in">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <a href="tel:+918688935411">+91 8688935411</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ahmed Ullah. Crafted with passion, innovation, and cutting-edge web technologies.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Floating Dark Mode Toggle -->
+    <button class="floating-theme-toggle" id="floatingThemeToggle">
+        <i class="fas fa-moon" id="floatingThemeIcon"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
