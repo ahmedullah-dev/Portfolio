@@ -25,7 +25,7 @@ A fully responsive personal portfolio website built using HTML, CSS (Flexbox & G
 
 ## 📸 Preview
 
-![Portfolio Preview](./image.jpg)
+![Portfolio Preview](./image.png)
 
 ## 🧑‍💻 Author
 
