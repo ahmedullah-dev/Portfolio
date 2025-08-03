@@ -33,5 +33,4 @@ A fully responsive personal portfolio website built using HTML, CSS (Flexbox & G
 - 💼 [LinkedIn](https://www.linkedin.com/in/ahmedullah-dev)  
 - 💻 [GitHub](https://github.com/ahmedullah-dev)  
 - 🌐 [Portfolio](https://ahmedullah-dev.netlify.app/)
-- 📄 [View My Resume](./AHMED ULLAH - RESUME.pdf)
 
