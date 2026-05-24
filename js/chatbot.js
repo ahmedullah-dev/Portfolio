@@ -33,9 +33,9 @@ const knowledgeBase = {
   projects: {
     keywords: ['projects', 'portfolio', 'work', 'deployments', 'built', 'mission'],
     responses: [
-      '01. Personal Portfolio (Live) - ahmedullah-dev.netlify.app | Tech: HTML5, CSS3, JavaScript, GSAP, Three.js, Tailwind CSS\n02. Quiz App (Live) - quiz-app-ahmedullah.netlify.app | Tech: JavaScript, DOM Manipulation\n03. Creamery Dairy System - Python, Django, Database Management\n04. AI & Cybersecurity Research - Analyzing AI impact on smart cities',
-      'Ahmed has deployed multiple projects: a futuristic portfolio with 3D animations, an interactive quiz application, a dairy management system using Django, and conducted AI/Cybersecurity research. Each project showcases different technical expertise.',
-      'Projects include: immersive portfolio site (Three.js + GSAP), quiz app with real-time scoring, Django-based dairy operations system, and AI security research. All demonstrate expertise in full-stack development and innovative problem-solving.'
+      '01. Personal Portfolio (Live) - ahmedullah-dev.netlify.app | Tech: HTML5, CSS3, JavaScript, GSAP, Three.js, Tailwind CSS\n02. STUDIQ (Live) - studiq-kb4q.onrender.com | Tech: Node.js, Express.js, OpenRouter API, AI/ML\n03. Creamery Dairy System - Python, Django, Database Management\n04. AI & Cybersecurity Research - Analyzing AI impact on smart cities',
+      'Ahmed has deployed multiple projects: a futuristic portfolio with 3D animations, an AI-powered learning platform STUDIQ with intelligent quiz generation, a dairy management system using Django, and conducted AI/Cybersecurity research. Each project showcases different technical expertise.',
+      'Projects include: immersive portfolio site (Three.js + GSAP), STUDIQ - an AI learning platform with performance prediction and viva practice, Django-based dairy operations system, and AI security research. All demonstrate expertise in full-stack development and innovative problem-solving.'
     ]
   },
   portfolio: {

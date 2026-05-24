@@ -400,7 +400,7 @@ function processTerminalCommand(input) {
     termOutput('HTML5 | CSS3 | JavaScript | Python | Tailwind CSS | Git | GitHub | MongoDB | REST APIs | AI Tools | Netlify | Prompt Engineering');
   } else if (input === 'projects') {
     termOutput('01. Personal Portfolio — ahmedullah-dev.netlify.app');
-    termOutput('02. Quiz App — quiz-app-ahmedullah.netlify.app');
+    termOutput('02. STUDIQ — studiq-kb4q.onrender.com');
     termOutput('03. Creamery Dairy System — CLASSIFIED');
     termOutput('04. AI & Cybersecurity Research — ENCRYPTED');
   } else if (input === 'clear') {
